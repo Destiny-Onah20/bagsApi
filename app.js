@@ -16,9 +16,9 @@ app.use("/api", adminRoutes)
 
 
 
-// app.use('/',(req,res)=>{
-//     res.status(200).send("My Api is wk")
-// })
+app.use('/',(req,res)=>{
+    res.status(200).send("Welcome to my API")
+})
 
 
 module.exports = app
